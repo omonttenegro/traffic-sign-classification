@@ -69,9 +69,11 @@ To save the trained model:
 python traffic.py data_directory model.h5
 ```
 
-## Dataset Structure
+## Dataset
 
-The dataset directory should contain one folder per category, numbered from `0` to `42`, each containing the corresponding traffic sign images.
+The dataset is **not included in this repository** due to its size.
+
+To run the project, download the traffic sign image dataset separately and place it in a directory structured with one folder per category, numbered from `0` to `42`.
 
 Example:
 
